@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;    
+}
 #left-side{
-    width: 25vw;
-    height: 60vh;
-    border: 1px solid black;
-    background:  hsl(234, 85%, 45%);
-    color: white;
+    width: 18%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(221, 100%, 96%);
     border-radius: 20px;
     text-align: center;
     
 }
 
 #right-side{
-    width: 25vw;
-    height: 60vh;
-    /* border: 1px solid black; */
+    width: 18%;
+    height: 50vh;
+    border: 1px solid black;
     border-radius: 0px 20px 20px 0px;
     background: hsl(0, 0%, 100%);
     
@@ -28,17 +35,84 @@ body{
     justify-content: center;
     padding: 5% 5%;
 }
-#num{
-    border: 1px solid black;
-    border-radius:75%;
-    width: 100px;
-    height: 100px;
+.result{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 5%;
+}
+.result>p{
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+#num{
+    /* border: 1px solid black; */
+    border-radius:75%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    
 
 }
-#num h1{
+#num h2{
     font-size: 50px;
+}
+#num p{
+    font-size:12px;
+    color:  hsl(241, 100%, 89%);
+}
+
+#great{
+    padding-top: 10%;
+
+    width: 65%;
+    /* border: 1px solid black; */
+    margin: 0 auto
+}
+#great h1{
+    font-size: 19px;
+    
+}
+#great p{
+    margin-top: 5%;
+    font-size:10px ;
+    color: hsl(241, 100%, 89%);
+}
+
+#right-side>h1{
+    padding:5% 5%;
+    font-size: 15px;
+}
+#box1{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height:5vh;
+    margin-bottom: 4%;
+}
+#box2{
+    border: 1px solid black;
+    width: 100%;
+    height:5vh;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
+#box3{
+    border: 1px solid black;
+    width: 100%;
+    height:5vh;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
+#box4{
+    border: 1px solid black;
+    width: 100%;
+    height:5vh;
+    margin-bottom: 4%;
+    border-radius: 5px;
 }
